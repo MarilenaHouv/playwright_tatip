@@ -21,7 +21,7 @@ When('User searches for {string}', async (searchQuery) => {
 });
 
 When('User clicks on the first search result', async () => {
-  // Students will need to complete this part
+  //change website you want to click on 
   const firstResult = await page.getByRole('link', { name: 'Website Wikipedia https://en.' });
   await firstResult.click(); // Click on the first search result
   await page.waitForLoadState('domcontentloaded'); // Ensure the page loads
