@@ -29,12 +29,11 @@ When('User clicks on the first search result', async () => {
 
 
 
-Then('User interacts with the page', async () => {
-  // TODO: Students will fill in this section
-  // Example interactions: Click a button, fill a form, etc.
-  // Example: await page.click('text=Documentation');
-  const clickElement = await page.getByRole('link', { name: 'View source' });
-  await clickElement.click();
-  // Ensure students can interact meaningfully
-  console.log('Page interaction complete!');
-});
+// Then('User interacts with the page', async () => {
+//   // TODO: Students fill in this section
+//   // Example interactions: Click a button, fill a form, etc.
+//   // Example: await page.click('text=Documentation');
+//   //the next two lines currently click on wikipedias "view source" page
+//   const clickElement = await page.getByRole('link', { name: 'View source' });
+//   await clickElement.click();
+// });
